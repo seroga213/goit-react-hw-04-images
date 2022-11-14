@@ -10,7 +10,6 @@ import { ButtonMore } from './Button/Button';
 import { useState, useEffect } from "react";
 import { FechCSerchImages } from './api/Api';
 import { Title } from '../components/Searchbar/Serchbar.styled';
-const perPage = 12;
 
 export const App = () => {
   const [searchPictures, setSearchPictures] = useState('');

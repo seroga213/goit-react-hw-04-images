@@ -1,6 +1,5 @@
 import { createPortal } from 'react-dom';
 import { BakcDrop, ModalWindow } from './Modal.styled';
-import PropTypes from 'prop-types';
 import { useEffect } from 'react';
 
 
